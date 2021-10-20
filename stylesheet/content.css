@@ -1,7 +1,17 @@
 h1 {
-  font-size: 200px;
-  font-family: proxima nova;
-  margin-top: -1200px;
+  position: relative;
+width: 1049px;
+height: 508px;
+margin-left: 150px;
+margin-top: 150px;
+
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 288px;
+line-height: 70.8%;
+/* or 204px */
 }
 body{
   width: 100%;
@@ -10,6 +20,7 @@ body{
   height: 100%;
   display: block;
   position: relative;
+  padding: 1px;
 
 }
 body::before{
@@ -18,23 +29,36 @@ body::before{
   left: 0;
   top: 0;
   right: 0;
-  background: url( '../images/макет.jpg');
+   background: url( '../images/макет.jpg');
   width: 100%;
   height: 100%;
   background-size: 100% auto ;
   display: block;
-  opacity: .5;
+   opacity: .5;
 }
 
 
 
 .first{
-  margin-top: 490px;
+  position: absolute;
+width: 1854px;
+height: 1115px;
+left: -318px;
+top: 367px;
 }
+
+
+
+
 .rectangle {
   width: 100px;
-  margin-left: 500px;
-  margin-bottom: -500px;
+  margin-left: 650px;
+  margin-top: 500px;
   background: red;
-  height: 100px;
+  height: 200px;
+}
+
+.корабль.svg{
+  margin-top: 200px;
+
 }
